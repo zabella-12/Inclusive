@@ -1,0 +1,22 @@
+from pydantic_settings import BaseSettings, SettingsConfigDict
+
+
+class Settings(BaseSettings):
+    DATABASE_URL: str = "sqlite:///./inclusive.db"
+    SECRET_KEY: str = "change-me"
+    ALGORITHM: str = "HS256"
+    ACCESS_TOKEN_EXPIRE_MINUTES: int = 60
+    FRONTEND_ORIGINS: str = "http://localhost:5173,http://localhost:3000"
+
+    # Azure AI - Speech-to-Text
+    AZURE_SPEECH_KEY: str = ""
+    AZURE_SPEECH_REGION: str = ""
+
+    model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8")
+
+    @property
+    def origins(self) -> list[str]:
+        return [o.strip() for o in self.FRONTEND_ORIGINS.split(",")]
+
+
+settings = Settings()
