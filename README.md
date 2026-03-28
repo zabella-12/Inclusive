@@ -1,9 +1,10 @@
 # Inclusive
 
+Presentation: <a> https://www.figma.com/deck/iwFcY3KHI24IjUVn4MDYas</a>
 ## About the Project
 
 Inclusive is a platform designed to improve accessibility and communication between deaf individuals and organizations.
-
+S
 The project focuses on reducing communication barriers by providing tools that support career development, performance tracking, and inclusive feedback for deaf professionals.
 
 It also helps managers better understand, evaluate, and communicate with deaf employees in a simple and accessible way.
