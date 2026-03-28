@@ -49,15 +49,6 @@ Note: Currently, translation is limited to Portuguese text, which is sufficient 
 
 ---
 
-## Technologies
-
-- Frontend: React / Vite  
-- Backend: FastAPI (or your backend technology)  
-- API Integration  
-- Accessibility tools (VLibras)
-
----
-
 ## Status
 
 This project is currently in early-stage development (MVP).
@@ -75,7 +66,9 @@ Inclusive aims to create a more equitable job market where deaf professionals ha
 ## Contributors
 
 - Isabella Castro  
-- (Add your team members here)
+- Cibelly Cristina Rodrigues Couto
+- Katsiaryna Vyshydkevich
+- Mingyu Li
 
 ---
 
